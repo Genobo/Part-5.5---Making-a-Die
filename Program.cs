@@ -5,7 +5,7 @@
         static void Main(string[] args)
         {
             Die die1 = new Die();
-            Die die2 = new Die(3);
+            Die die2 = new Die(3 );
 
             Console.WriteLine($"You rolled a {die1.Roll}");
             die1.DrawDie();
